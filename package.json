@@ -8,6 +8,10 @@
     "start": "nuxt start"
   },
   "devDependencies": {
+    "@nuxt/types": "^2.18.1",
     "nuxt": "latest"
+  },
+  "dependencies": {
+    "axios": "^1.11.0"
   }
 }
