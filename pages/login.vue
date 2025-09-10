@@ -23,7 +23,7 @@ const login = async () => {
       email: email.value,
       password: password.value
     })
-    alert(`ログイン成功: ${res.data.user.name}`)
+    alert(`${res.data.message}: ${res.data.user.name}`)
   } catch (e) {
     alert(`ログイン失敗`)
   }
